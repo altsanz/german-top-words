@@ -33,7 +33,6 @@ function App() {
   }, [question])
 
   return (
-
     <div className="App">
       <header className="App-header">
         <Question></Question>
