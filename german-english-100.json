@@ -1,0 +1,504 @@
+{
+    "words": [
+        {
+            "id": 0,
+            "german": "",
+            "english": "reich rich"
+        },
+        {
+            "id": 1,
+            "german": "das Flugzeug",
+            "english": " -e the airplane"
+        },
+        {
+            "id": 2,
+            "german": "die Gefahr",
+            "english": " -en the danger, risk"
+        },
+        {
+            "id": 3,
+            "german": "absolut",
+            "english": " absolute ('a_')"
+        },
+        {
+            "id": 4,
+            "german": "bekannt",
+            "english": " famous, known, noted (for sth)"
+        },
+        {
+            "id": 5,
+            "german": "tief",
+            "english": " 1. deep. 2. low"
+        },
+        {
+            "id": 6,
+            "german": "regeln",
+            "english": " to rule, regulate, adjust, control"
+        },
+        {
+            "id": 7,
+            "german": "die Bank",
+            "english": " -en the bank"
+        },
+        {
+            "id": 8,
+            "german": "der Professor",
+            "english": " -en the professor"
+        },
+        {
+            "id": 9,
+            "german": "der Partner",
+            "english": " -s the partner ('Gesellschafter' or ...)"
+        },
+        {
+            "id": 10,
+            "german": "das Opfer",
+            "english": " - the sacrifice, victim, casualty"
+        },
+        {
+            "id": 11,
+            "german": "der See",
+            "english": " -n the lake"
+        },
+        {
+            "id": 12,
+            "german": "die See",
+            "english": " -n the sea ('Meer' or ...)"
+        },
+        {
+            "id": 13,
+            "german": "das Meer",
+            "english": " -e the sea ('See' or ...)"
+        },
+        {
+            "id": 14,
+            "german": "erreichen",
+            "english": " to achieve, reach, attain, accomplish, gain, obtain (not 'erzielen')"
+        },
+        {
+            "id": 15,
+            "german": "die Hochzeit",
+            "english": " -en the wedding"
+        },
+        {
+            "id": 16,
+            "german": "der Geburtstag",
+            "english": " -e the birthday"
+        },
+        {
+            "id": 17,
+            "german": "der Hut",
+            "english": " -\"e the hat"
+        },
+        {
+            "id": 18,
+            "german": "die Liste",
+            "english": " -n the list"
+        },
+        {
+            "id": 19,
+            "german": "die Karte",
+            "english": " -n the card"
+        },
+        {
+            "id": 20,
+            "german": "die Gesellschaft",
+            "english": " -en the society"
+        },
+        {
+            "id": 21,
+            "german": "lügen",
+            "english": " to lie, to say falsely"
+        },
+        {
+            "id": 22,
+            "german": "die Kirche",
+            "english": " -n the church"
+        },
+        {
+            "id": 23,
+            "german": "traurig",
+            "english": " sad"
+        },
+        {
+            "id": 24,
+            "german": "die Kontrolle",
+            "english": " -n the inspection, monitoring, examination, control (K_)"
+        },
+        {
+            "id": 25,
+            "german": "das Zeichen",
+            "english": " - the sign"
+        },
+        {
+            "id": 26,
+            "german": "das Foto",
+            "english": " -s the photo"
+        },
+        {
+            "id": 27,
+            "german": "seltsam",
+            "english": " odd, peculiar, strange ('merkwürdig' or ...)"
+        },
+        {
+            "id": 28,
+            "german": "sauber",
+            "english": " clean (not 'rein')"
+        },
+        {
+            "id": 29,
+            "german": "das Aussehen",
+            "english": " the physical appearance, looks, look"
+        },
+        {
+            "id": 30,
+            "german": "aussehen",
+            "english": " to look like"
+        },
+        {
+            "id": 31,
+            "german": "die Hoffnung",
+            "english": " -en the hope"
+        },
+        {
+            "id": 32,
+            "german": "der Ball",
+            "english": " -\"e the ball (as in a dance event)"
+        },
+        {
+            "id": 33,
+            "german": "der Wein",
+            "english": " -e the wine"
+        },
+        {
+            "id": 34,
+            "german": "die Szene",
+            "english": " -n the scene"
+        },
+        {
+            "id": 35,
+            "german": "das Vergnügen",
+            "english": " - the pleasure, the delight"
+        },
+        {
+            "id": 36,
+            "german": "irgendwann",
+            "english": " sometime (i~)"
+        },
+        {
+            "id": 37,
+            "german": "stechen",
+            "english": " to stick, stab, sting, prick, bite (mosquito)"
+        },
+        {
+            "id": 38,
+            "german": "neun",
+            "english": " nine"
+        },
+        {
+            "id": 39,
+            "german": "drehen",
+            "english": " to turn smth ('wenden' or ...)"
+        },
+        {
+            "id": 40,
+            "german": "die Tante",
+            "english": " -n the aunt"
+        },
+        {
+            "id": 41,
+            "german": "werfen",
+            "english": " to throw"
+        },
+        {
+            "id": 42,
+            "german": "der Fuß",
+            "english": " -\"e the foot"
+        },
+        {
+            "id": 43,
+            "german": "gegenüber",
+            "english": " across (from)"
+        },
+        {
+            "id": 44,
+            "german": "ungefähr",
+            "english": " about, roughly, approximately, approximate (etwa, or ...)"
+        },
+        {
+            "id": 45,
+            "german": "übrigens",
+            "english": " by the way"
+        },
+        {
+            "id": 46,
+            "german": "der Mut",
+            "english": " the courage (no plural)"
+        },
+        {
+            "id": 47,
+            "german": "sauer",
+            "english": " sour, annoyed"
+        },
+        {
+            "id": 48,
+            "german": "das Geheimnis",
+            "english": " -se the secret"
+        },
+        {
+            "id": 49,
+            "german": "entfernt",
+            "english": " remote, distant, away, removed"
+        },
+        {
+            "id": 50,
+            "german": "statt",
+            "english": " instead of ('s_')"
+        },
+        {
+            "id": 51,
+            "german": "das Bein",
+            "english": " -e the leg"
+        },
+        {
+            "id": 52,
+            "german": "furchtbar",
+            "english": " terrible, awful, dreadful ('f_')"
+        },
+        {
+            "id": 53,
+            "german": "schuldig",
+            "english": " guilty"
+        },
+        {
+            "id": 54,
+            "german": "die Gruppe",
+            "english": " -n the group"
+        },
+        {
+            "id": 55,
+            "german": "der Amerikaner",
+            "english": " - the American person"
+        },
+        {
+            "id": 56,
+            "german": "der Hals",
+            "english": " -\"e the neck"
+        },
+        {
+            "id": 57,
+            "german": "nämlich",
+            "english": " namely"
+        },
+        {
+            "id": 58,
+            "german": "der Besuch",
+            "english": " -e the visit"
+        },
+        {
+            "id": 59,
+            "german": "wohnen",
+            "english": " to live (in a place)"
+        },
+        {
+            "id": 60,
+            "german": "lieb",
+            "english": " dear (teuer, liebe, or ...)"
+        },
+        {
+            "id": 61,
+            "german": "persönlich",
+            "english": " personal"
+        },
+        {
+            "id": 62,
+            "german": "die Entscheidung",
+            "english": " -en the decision"
+        },
+        {
+            "id": 63,
+            "german": "interessant",
+            "english": " interesting"
+        },
+        {
+            "id": 64,
+            "german": "passen",
+            "english": " to fit, to suit"
+        },
+        {
+            "id": 65,
+            "german": "der Wind",
+            "english": " -e the wind"
+        },
+        {
+            "id": 66,
+            "german": "der Polizist",
+            "english": " -en; -en the male police officer"
+        },
+        {
+            "id": 67,
+            "german": "die Sekunde",
+            "english": " -n the second"
+        },
+        {
+            "id": 68,
+            "german": "beweisen",
+            "english": " to prove, substantiate, provide evidence (for sth) ('b_')"
+        },
+        {
+            "id": 69,
+            "german": "verraten",
+            "english": " to betray, give away (one's cover) (betrügen, or ...)"
+        },
+        {
+            "id": 70,
+            "german": "lagern",
+            "english": " to store, camp"
+        },
+        {
+            "id": 71,
+            "german": "kaputt",
+            "english": " broken"
+        },
+        {
+            "id": 72,
+            "german": "das Dorf",
+            "english": " -\"er the village"
+        },
+        {
+            "id": 73,
+            "german": "das Glas",
+            "english": " -\"er the glass"
+        },
+        {
+            "id": 74,
+            "german": "nervös",
+            "english": " nervous"
+        },
+        {
+            "id": 75,
+            "german": "zuhause",
+            "english": " at home ('z_')"
+        },
+        {
+            "id": 76,
+            "german": "die Firma",
+            "english": " die Firmen the company, the enterprise"
+        },
+        {
+            "id": 77,
+            "german": "die Lust",
+            "english": " the desire (to do sth.); the passion (no plural)"
+        },
+        {
+            "id": 78,
+            "german": "der Blick",
+            "english": " -e the glimpse, sight, glance, look, view"
+        },
+        {
+            "id": 79,
+            "german": "süß",
+            "english": " sweet"
+        },
+        {
+            "id": 80,
+            "german": "öffnen",
+            "english": " to open ('ö_')"
+        },
+        {
+            "id": 81,
+            "german": "gehören",
+            "english": " to belong to (+ dat.)"
+        },
+        {
+            "id": 82,
+            "german": "nachts",
+            "english": " at night ('bei Nacht' or ...)"
+        },
+        {
+            "id": 83,
+            "german": "der Meter",
+            "english": " - the meter"
+        },
+        {
+            "id": 84,
+            "german": "wunderschön",
+            "english": " gorgeous, beautiful, wonderful"
+        },
+        {
+            "id": 85,
+            "german": "antworten",
+            "english": " to answer (beantworten, or ...)"
+        },
+        {
+            "id": 86,
+            "german": "das Loch",
+            "english": " -\"er the hole"
+        },
+        {
+            "id": 87,
+            "german": "besuchen",
+            "english": " to visit"
+        },
+        {
+            "id": 88,
+            "german": "entlang",
+            "english": " along, alongside"
+        },
+        {
+            "id": 89,
+            "german": "die Freude",
+            "english": " -n the joy"
+        },
+        {
+            "id": 90,
+            "german": "geliebt",
+            "english": " beloved"
+        },
+        {
+            "id": 91,
+            "german": "die Insel",
+            "english": " -n the island"
+        },
+        {
+            "id": 92,
+            "german": "",
+            "english": "das Fleisch the meat (no plural)"
+        },
+        {
+            "id": 93,
+            "german": "der Schmerz",
+            "english": " -en the pain"
+        },
+        {
+            "id": 94,
+            "german": "die Zeitung",
+            "english": " -en the newspaper"
+        },
+        {
+            "id": 95,
+            "german": "erkennen",
+            "english": " to recognise, to realise"
+        },
+        {
+            "id": 96,
+            "german": "das Gebäude",
+            "english": " - the building"
+        },
+        {
+            "id": 97,
+            "german": "das Messer",
+            "english": " - the knife"
+        },
+        {
+            "id": 98,
+            "german": "der Kontakt",
+            "english": " -e the contact"
+        },
+        {
+            "id": 99,
+            "german": "schreien",
+            "english": " to scream, to shout"
+        }
+    ]
+}
