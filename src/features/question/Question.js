@@ -4,6 +4,7 @@ import { generateQuestion } from "../words/wordsSlice";
 import TheWord from "../../components/TheWord";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
+import { Box } from "@mui/material";
 
 export function Question() {
   const [buttonColors, setButtonColors] = useState([
@@ -42,32 +43,34 @@ export function Question() {
 
     setButtonColors(newColorButtons);
     setTimeout(() => {
-      console.log("hole");
       setButtonColors(["primary", "primary", "primary"]);
       dispatch(generateQuestion());
     }, 2000);
   }
 
   return (
-    <Grid container spacing={2} class="">
-      <Grid item xs={12}>
-        <TheWord
-          word={
-            (question.gender ? question.gender + " " : "") + question.germanWord
-          }
-        ></TheWord>
-      </Grid>
-      {question.possibleTranslations.map((option, i) => (
-        <Grid item xs={4}>
-          <Button
-            variant="outlined"
-            color={buttonColors[i]}
-            onClick={() => selectOption(option)}
-          >
-            {option}
-          </Button>
+    <Box sx="{{ flexGrow: 1 }}">
+      <Grid container spacing={2}>
+        <Grid item xs={12}>
+          <TheWord
+            word={
+              (question.gender ? question.gender + " " : "") +
+              question.germanWord
+            }
+          ></TheWord>
         </Grid>
-      ))}
-    </Grid>
+        {question.possibleTranslations.map((option, i) => (
+          <Grid item xs={4}>
+            <Button
+              variant="outlined"
+              color={buttonColors[i]}
+              onClick={() => selectOption(option)}
+            >
+              {option}
+            </Button>
+          </Grid>
+        ))}
+      </Grid>
+    </Box>
   );
 }
