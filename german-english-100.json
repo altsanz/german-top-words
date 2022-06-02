@@ -1,452 +1,494 @@
-[
-  { "id": 0, "german": "reich", "genre": "", "english": "rich" },
-  {
-    "id": 1,
-    "german": "Flugzeug",
-    "genre": "neutral",
-    "english": "-e the airplane"
-  },
-  {
-    "id": 2,
-    "german": "Gefahr",
-    "genre": "femenine",
-    "english": "-en the danger, risk"
-  },
-  { "id": 3, "german": "absolut", "genre": "", "english": "absolute ('a_')" },
-  {
-    "id": 4,
-    "german": "bekannt",
-    "genre": "",
-    "english": "famous, known, noted (for sth)"
-  },
-  { "id": 5, "german": "tief", "genre": "", "english": "1. deep. 2. low" },
-  {
-    "id": 6,
-    "german": "regeln",
-    "genre": "",
-    "english": "to rule, regulate, adjust, control"
-  },
-  { "id": 7, "german": "Bank", "genre": "femenine", "english": "-en the bank" },
-  {
-    "id": 8,
-    "german": "Professor",
-    "genre": "masculine",
-    "english": "-en the professor"
-  },
-  {
-    "id": 9,
-    "german": "Partner",
-    "genre": "masculine",
-    "english": "-s the partner ('Gesellschafter' or ...)"
-  },
-  {
-    "id": 10,
-    "german": "Opfer",
-    "genre": "neutral",
-    "english": "- the sacrifice, victim, casualty"
-  },
-  { "id": 11, "german": "See", "genre": "masculine", "english": "-n the lake" },
-  {
-    "id": 12,
-    "german": "See",
-    "genre": "femenine",
-    "english": "-n the sea ('Meer' or ...)"
-  },
-  {
-    "id": 13,
-    "german": "Meer",
-    "genre": "neutral",
-    "english": "-e the sea ('See' or ...)"
-  },
-  {
-    "id": 14,
-    "german": "erreichen",
-    "genre": "",
-    "english": "to achieve, reach, attain, accomplish, gain, obtain (not 'erzielen')"
-  },
-  {
-    "id": 15,
-    "german": "Hochzeit",
-    "genre": "femenine",
-    "english": "-en the wedding"
-  },
-  {
-    "id": 16,
-    "german": "Geburtstag",
-    "genre": "masculine",
-    "english": "-e the birthday"
-  },
-  {
-    "id": 17,
-    "german": "Hut",
-    "genre": "masculine",
-    "english": "-\"e the hat"
-  },
-  {
-    "id": 18,
-    "german": "Liste",
-    "genre": "femenine",
-    "english": "-n the list"
-  },
-  {
-    "id": 19,
-    "german": "Karte",
-    "genre": "femenine",
-    "english": "-n the card"
-  },
-  {
-    "id": 20,
-    "german": "Gesellschaft",
-    "genre": "femenine",
-    "english": "-en the society"
-  },
-  {
-    "id": 21,
-    "german": "lügen",
-    "genre": "",
-    "english": "to lie, to say falsely"
-  },
-  {
-    "id": 22,
-    "german": "Kirche",
-    "genre": "femenine",
-    "english": "-n the church"
-  },
-  { "id": 23, "german": "traurig", "genre": "", "english": "sad" },
-  {
-    "id": 24,
-    "german": "Kontrolle",
-    "genre": "femenine",
-    "english": "-n the inspection, monitoring, examination, control (K_)"
-  },
-  {
-    "id": 25,
-    "german": "Zeichen",
-    "genre": "neutral",
-    "english": "- the sign"
-  },
-  { "id": 26, "german": "Foto", "genre": "neutral", "english": "-s the photo" },
-  {
-    "id": 27,
-    "german": "seltsam",
-    "genre": "",
-    "english": "odd, peculiar, strange ('merkwürdig' or ...)"
-  },
-  {
-    "id": 28,
-    "german": "sauber",
-    "genre": "",
-    "english": "clean (not 'rein')"
-  },
-  {
-    "id": 29,
-    "german": "Aussehen",
-    "genre": "neutral",
-    "english": "the physical appearance, looks, look"
-  },
-  { "id": 30, "german": "aussehen", "genre": "", "english": "to look like" },
-  {
-    "id": 31,
-    "german": "Hoffnung",
-    "genre": "femenine",
-    "english": "-en the hope"
-  },
-  {
-    "id": 32,
-    "german": "Ball",
-    "genre": "masculine",
-    "english": "-\"e the ball (as in a dance event)"
-  },
-  {
-    "id": 33,
-    "german": "Wein",
-    "genre": "masculine",
-    "english": "-e the wine"
-  },
-  {
-    "id": 34,
-    "german": "Szene",
-    "genre": "femenine",
-    "english": "-n the scene"
-  },
-  {
-    "id": 35,
-    "german": "Vergnügen",
-    "genre": "neutral",
-    "english": "- the pleasure, the delight"
-  },
-  { "id": 36, "german": "irgendwann", "genre": "", "english": "sometime (i~)" },
-  {
-    "id": 37,
-    "german": "stechen",
-    "genre": "",
-    "english": "to stick, stab, sting, prick, bite (mosquito)"
-  },
-  { "id": 38, "german": "neun", "genre": "", "english": "nine" },
-  {
-    "id": 39,
-    "german": "drehen",
-    "genre": "",
-    "english": "to turn smth ('wenden' or ...)"
-  },
-  {
-    "id": 40,
-    "german": "Tante",
-    "genre": "femenine",
-    "english": "-n the aunt"
-  },
-  { "id": 41, "german": "werfen", "genre": "", "english": "to throw" },
-  {
-    "id": 42,
-    "german": "Fuß",
-    "genre": "masculine",
-    "english": "-\"e the foot"
-  },
-  { "id": 43, "german": "gegenüber", "genre": "", "english": "across (from)" },
-  {
-    "id": 44,
-    "german": "ungefähr",
-    "genre": "",
-    "english": "about, roughly, approximately, approximate (etwa, or ...)"
-  },
-  { "id": 45, "german": "übrigens", "genre": "", "english": "by the way" },
-  {
-    "id": 46,
-    "german": "Mut",
-    "genre": "masculine",
-    "english": "the courage (no plural)"
-  },
-  { "id": 47, "german": "sauer", "genre": "", "english": "sour, annoyed" },
-  {
-    "id": 48,
-    "german": "Geheimnis",
-    "genre": "neutral",
-    "english": "-se the secret"
-  },
-  {
-    "id": 49,
-    "german": "entfernt",
-    "genre": "",
-    "english": "remote, distant, away, removed"
-  },
-  { "id": 50, "german": "statt", "genre": "", "english": "instead of ('s_')" },
-  { "id": 51, "german": "Bein", "genre": "neutral", "english": "-e the leg" },
-  {
-    "id": 52,
-    "german": "furchtbar",
-    "genre": "",
-    "english": "terrible, awful, dreadful ('f_')"
-  },
-  { "id": 53, "german": "schuldig", "genre": "", "english": "guilty" },
-  {
-    "id": 54,
-    "german": "Gruppe",
-    "genre": "femenine",
-    "english": "-n the group"
-  },
-  {
-    "id": 55,
-    "german": "Amerikaner",
-    "genre": "masculine",
-    "english": "- the American person"
-  },
-  {
-    "id": 56,
-    "german": "Hals",
-    "genre": "masculine",
-    "english": "-\"e the neck"
-  },
-  { "id": 57, "german": "nämlich", "genre": "", "english": "namely" },
-  {
-    "id": 58,
-    "german": "Besuch",
-    "genre": "masculine",
-    "english": "-e the visit"
-  },
-  {
-    "id": 59,
-    "german": "wohnen",
-    "genre": "",
-    "english": "to live (in a place)"
-  },
-  {
-    "id": 60,
-    "german": "lieb",
-    "genre": "",
-    "english": "dear (teuer, liebe, or ...)"
-  },
-  { "id": 61, "german": "persönlich", "genre": "", "english": "personal" },
-  {
-    "id": 62,
-    "german": "Entscheidung",
-    "genre": "femenine",
-    "english": "-en the decision"
-  },
-  { "id": 63, "german": "interessant", "genre": "", "english": "interesting" },
-  { "id": 64, "german": "passen", "genre": "", "english": "to fit, to suit" },
-  {
-    "id": 65,
-    "german": "Wind",
-    "genre": "masculine",
-    "english": "-e the wind"
-  },
-  {
-    "id": 66,
-    "german": "Polizist",
-    "genre": "masculine",
-    "english": "-en; -en the male police officer"
-  },
-  {
-    "id": 67,
-    "german": "Sekunde",
-    "genre": "femenine",
-    "english": "-n the second"
-  },
-  {
-    "id": 68,
-    "german": "beweisen",
-    "genre": "",
-    "english": "to prove, substantiate, provide evidence (for sth) ('b_')"
-  },
-  {
-    "id": 69,
-    "german": "verraten",
-    "genre": "",
-    "english": "to betray, give away (one's cover) (betrügen, or ...)"
-  },
-  { "id": 70, "german": "lagern", "genre": "", "english": "to store, camp" },
-  { "id": 71, "german": "kaputt", "genre": "", "english": "broken" },
-  {
-    "id": 72,
-    "german": "Dorf",
-    "genre": "neutral",
-    "english": "-\"er the village"
-  },
-  {
-    "id": 73,
-    "german": "Glas",
-    "genre": "neutral",
-    "english": "-\"er the glass"
-  },
-  { "id": 74, "german": "nervös", "genre": "", "english": "nervous" },
-  { "id": 75, "german": "zuhause", "genre": "", "english": "at home ('z_')" },
-  {
-    "id": 76,
-    "german": "Firma",
-    "genre": "femenine",
-    "english": "die Firmen the company, the enterprise"
-  },
-  {
-    "id": 77,
-    "german": "Lust",
-    "genre": "femenine",
-    "english": "the desire (to do sth.); the passion (no plural)"
-  },
-  {
-    "id": 78,
-    "german": "Blick",
-    "genre": "masculine",
-    "english": "-e the glimpse, sight, glance, look, view"
-  },
-  { "id": 79, "german": "süß", "genre": "", "english": "sweet" },
-  { "id": 80, "german": "öffnen", "genre": "", "english": "to open ('ö_')" },
-  {
-    "id": 81,
-    "german": "gehören",
-    "genre": "",
-    "english": "to belong to (+ dat.)"
-  },
-  {
-    "id": 82,
-    "german": "nachts",
-    "genre": "",
-    "english": "at night ('bei Nacht' or ...)"
-  },
-  {
-    "id": 83,
-    "german": "Meter",
-    "genre": "masculine",
-    "english": "- the meter"
-  },
-  {
-    "id": 84,
-    "german": "wunderschön",
-    "genre": "",
-    "english": "gorgeous, beautiful, wonderful"
-  },
-  {
-    "id": 85,
-    "german": "antworten",
-    "genre": "",
-    "english": "to answer (beantworten, or ...)"
-  },
-  {
-    "id": 86,
-    "german": "Loch",
-    "genre": "neutral",
-    "english": "-\"er the hole"
-  },
-  { "id": 87, "german": "besuchen", "genre": "", "english": "to visit" },
-  { "id": 88, "german": "entlang", "genre": "", "english": "along, alongside" },
-  {
-    "id": 89,
-    "german": "Freude",
-    "genre": "femenine",
-    "english": "-n the joy"
-  },
-  { "id": 90, "german": "geliebt", "genre": "", "english": "beloved" },
-  {
-    "id": 91,
-    "german": "Insel",
-    "genre": "femenine",
-    "english": "-n the island"
-  },
-  {
-    "id": 92,
-    "german": "",
-    "genre": "",
-    "english": "das Fleisch the meat (no plural)"
-  },
-  {
-    "id": 93,
-    "german": "Schmerz",
-    "genre": "masculine",
-    "english": "-en the pain"
-  },
-  {
-    "id": 94,
-    "german": "Zeitung",
-    "genre": "femenine",
-    "english": "-en the newspaper"
-  },
-  {
-    "id": 95,
-    "german": "erkennen",
-    "genre": "",
-    "english": "to recognise, to realise"
-  },
-  {
-    "id": 96,
-    "german": "Gebäude",
-    "genre": "neutral",
-    "english": "- the building"
-  },
-  {
-    "id": 97,
-    "german": "Messer",
-    "genre": "neutral",
-    "english": "- the knife"
-  },
-  {
-    "id": 98,
-    "german": "Kontakt",
-    "genre": "masculine",
-    "english": "-e the contact"
-  },
-  {
-    "id": 99,
-    "german": "schreien",
-    "genre": "",
-    "english": "to scream, to shout"
-  }
-]
+{
+  "words": [
+    { "id": 0, "german": "reich", "genre": "", "english": "rich" },
+    {
+      "id": 1,
+      "german": "Flugzeug",
+      "genre": "neutral",
+      "english": "-e the airplane"
+    },
+    {
+      "id": 2,
+      "german": "Gefahr",
+      "genre": "femenine",
+      "english": "-en the danger, risk"
+    },
+    { "id": 3, "german": "absolut", "genre": "", "english": "absolute ('a_')" },
+    {
+      "id": 4,
+      "german": "bekannt",
+      "genre": "",
+      "english": "famous, known, noted (for sth)"
+    },
+    { "id": 5, "german": "tief", "genre": "", "english": "1. deep. 2. low" },
+    {
+      "id": 6,
+      "german": "regeln",
+      "genre": "",
+      "english": "to rule, regulate, adjust, control"
+    },
+    {
+      "id": 7,
+      "german": "Bank",
+      "genre": "femenine",
+      "english": "-en the bank"
+    },
+    {
+      "id": 8,
+      "german": "Professor",
+      "genre": "masculine",
+      "english": "-en the professor"
+    },
+    {
+      "id": 9,
+      "german": "Partner",
+      "genre": "masculine",
+      "english": "-s the partner ('Gesellschafter' or ...)"
+    },
+    {
+      "id": 10,
+      "german": "Opfer",
+      "genre": "neutral",
+      "english": "- the sacrifice, victim, casualty"
+    },
+    {
+      "id": 11,
+      "german": "See",
+      "genre": "masculine",
+      "english": "-n the lake"
+    },
+    {
+      "id": 12,
+      "german": "See",
+      "genre": "femenine",
+      "english": "-n the sea ('Meer' or ...)"
+    },
+    {
+      "id": 13,
+      "german": "Meer",
+      "genre": "neutral",
+      "english": "-e the sea ('See' or ...)"
+    },
+    {
+      "id": 14,
+      "german": "erreichen",
+      "genre": "",
+      "english": "to achieve, reach, attain, accomplish, gain, obtain (not 'erzielen')"
+    },
+    {
+      "id": 15,
+      "german": "Hochzeit",
+      "genre": "femenine",
+      "english": "-en the wedding"
+    },
+    {
+      "id": 16,
+      "german": "Geburtstag",
+      "genre": "masculine",
+      "english": "-e the birthday"
+    },
+    {
+      "id": 17,
+      "german": "Hut",
+      "genre": "masculine",
+      "english": "-\"e the hat"
+    },
+    {
+      "id": 18,
+      "german": "Liste",
+      "genre": "femenine",
+      "english": "-n the list"
+    },
+    {
+      "id": 19,
+      "german": "Karte",
+      "genre": "femenine",
+      "english": "-n the card"
+    },
+    {
+      "id": 20,
+      "german": "Gesellschaft",
+      "genre": "femenine",
+      "english": "-en the society"
+    },
+    {
+      "id": 21,
+      "german": "lügen",
+      "genre": "",
+      "english": "to lie, to say falsely"
+    },
+    {
+      "id": 22,
+      "german": "Kirche",
+      "genre": "femenine",
+      "english": "-n the church"
+    },
+    { "id": 23, "german": "traurig", "genre": "", "english": "sad" },
+    {
+      "id": 24,
+      "german": "Kontrolle",
+      "genre": "femenine",
+      "english": "-n the inspection, monitoring, examination, control (K_)"
+    },
+    {
+      "id": 25,
+      "german": "Zeichen",
+      "genre": "neutral",
+      "english": "- the sign"
+    },
+    {
+      "id": 26,
+      "german": "Foto",
+      "genre": "neutral",
+      "english": "-s the photo"
+    },
+    {
+      "id": 27,
+      "german": "seltsam",
+      "genre": "",
+      "english": "odd, peculiar, strange ('merkwürdig' or ...)"
+    },
+    {
+      "id": 28,
+      "german": "sauber",
+      "genre": "",
+      "english": "clean (not 'rein')"
+    },
+    {
+      "id": 29,
+      "german": "Aussehen",
+      "genre": "neutral",
+      "english": "the physical appearance, looks, look"
+    },
+    { "id": 30, "german": "aussehen", "genre": "", "english": "to look like" },
+    {
+      "id": 31,
+      "german": "Hoffnung",
+      "genre": "femenine",
+      "english": "-en the hope"
+    },
+    {
+      "id": 32,
+      "german": "Ball",
+      "genre": "masculine",
+      "english": "-\"e the ball (as in a dance event)"
+    },
+    {
+      "id": 33,
+      "german": "Wein",
+      "genre": "masculine",
+      "english": "-e the wine"
+    },
+    {
+      "id": 34,
+      "german": "Szene",
+      "genre": "femenine",
+      "english": "-n the scene"
+    },
+    {
+      "id": 35,
+      "german": "Vergnügen",
+      "genre": "neutral",
+      "english": "- the pleasure, the delight"
+    },
+    {
+      "id": 36,
+      "german": "irgendwann",
+      "genre": "",
+      "english": "sometime (i~)"
+    },
+    {
+      "id": 37,
+      "german": "stechen",
+      "genre": "",
+      "english": "to stick, stab, sting, prick, bite (mosquito)"
+    },
+    { "id": 38, "german": "neun", "genre": "", "english": "nine" },
+    {
+      "id": 39,
+      "german": "drehen",
+      "genre": "",
+      "english": "to turn smth ('wenden' or ...)"
+    },
+    {
+      "id": 40,
+      "german": "Tante",
+      "genre": "femenine",
+      "english": "-n the aunt"
+    },
+    { "id": 41, "german": "werfen", "genre": "", "english": "to throw" },
+    {
+      "id": 42,
+      "german": "Fuß",
+      "genre": "masculine",
+      "english": "-\"e the foot"
+    },
+    {
+      "id": 43,
+      "german": "gegenüber",
+      "genre": "",
+      "english": "across (from)"
+    },
+    {
+      "id": 44,
+      "german": "ungefähr",
+      "genre": "",
+      "english": "about, roughly, approximately, approximate (etwa, or ...)"
+    },
+    { "id": 45, "german": "übrigens", "genre": "", "english": "by the way" },
+    {
+      "id": 46,
+      "german": "Mut",
+      "genre": "masculine",
+      "english": "the courage (no plural)"
+    },
+    { "id": 47, "german": "sauer", "genre": "", "english": "sour, annoyed" },
+    {
+      "id": 48,
+      "german": "Geheimnis",
+      "genre": "neutral",
+      "english": "-se the secret"
+    },
+    {
+      "id": 49,
+      "german": "entfernt",
+      "genre": "",
+      "english": "remote, distant, away, removed"
+    },
+    {
+      "id": 50,
+      "german": "statt",
+      "genre": "",
+      "english": "instead of ('s_')"
+    },
+    { "id": 51, "german": "Bein", "genre": "neutral", "english": "-e the leg" },
+    {
+      "id": 52,
+      "german": "furchtbar",
+      "genre": "",
+      "english": "terrible, awful, dreadful ('f_')"
+    },
+    { "id": 53, "german": "schuldig", "genre": "", "english": "guilty" },
+    {
+      "id": 54,
+      "german": "Gruppe",
+      "genre": "femenine",
+      "english": "-n the group"
+    },
+    {
+      "id": 55,
+      "german": "Amerikaner",
+      "genre": "masculine",
+      "english": "- the American person"
+    },
+    {
+      "id": 56,
+      "german": "Hals",
+      "genre": "masculine",
+      "english": "-\"e the neck"
+    },
+    { "id": 57, "german": "nämlich", "genre": "", "english": "namely" },
+    {
+      "id": 58,
+      "german": "Besuch",
+      "genre": "masculine",
+      "english": "-e the visit"
+    },
+    {
+      "id": 59,
+      "german": "wohnen",
+      "genre": "",
+      "english": "to live (in a place)"
+    },
+    {
+      "id": 60,
+      "german": "lieb",
+      "genre": "",
+      "english": "dear (teuer, liebe, or ...)"
+    },
+    { "id": 61, "german": "persönlich", "genre": "", "english": "personal" },
+    {
+      "id": 62,
+      "german": "Entscheidung",
+      "genre": "femenine",
+      "english": "-en the decision"
+    },
+    {
+      "id": 63,
+      "german": "interessant",
+      "genre": "",
+      "english": "interesting"
+    },
+    { "id": 64, "german": "passen", "genre": "", "english": "to fit, to suit" },
+    {
+      "id": 65,
+      "german": "Wind",
+      "genre": "masculine",
+      "english": "-e the wind"
+    },
+    {
+      "id": 66,
+      "german": "Polizist",
+      "genre": "masculine",
+      "english": "-en; -en the male police officer"
+    },
+    {
+      "id": 67,
+      "german": "Sekunde",
+      "genre": "femenine",
+      "english": "-n the second"
+    },
+    {
+      "id": 68,
+      "german": "beweisen",
+      "genre": "",
+      "english": "to prove, substantiate, provide evidence (for sth) ('b_')"
+    },
+    {
+      "id": 69,
+      "german": "verraten",
+      "genre": "",
+      "english": "to betray, give away (one's cover) (betrügen, or ...)"
+    },
+    { "id": 70, "german": "lagern", "genre": "", "english": "to store, camp" },
+    { "id": 71, "german": "kaputt", "genre": "", "english": "broken" },
+    {
+      "id": 72,
+      "german": "Dorf",
+      "genre": "neutral",
+      "english": "-\"er the village"
+    },
+    {
+      "id": 73,
+      "german": "Glas",
+      "genre": "neutral",
+      "english": "-\"er the glass"
+    },
+    { "id": 74, "german": "nervös", "genre": "", "english": "nervous" },
+    { "id": 75, "german": "zuhause", "genre": "", "english": "at home ('z_')" },
+    {
+      "id": 76,
+      "german": "Firma",
+      "genre": "femenine",
+      "english": "die Firmen the company, the enterprise"
+    },
+    {
+      "id": 77,
+      "german": "Lust",
+      "genre": "femenine",
+      "english": "the desire (to do sth.); the passion (no plural)"
+    },
+    {
+      "id": 78,
+      "german": "Blick",
+      "genre": "masculine",
+      "english": "-e the glimpse, sight, glance, look, view"
+    },
+    { "id": 79, "german": "süß", "genre": "", "english": "sweet" },
+    { "id": 80, "german": "öffnen", "genre": "", "english": "to open ('ö_')" },
+    {
+      "id": 81,
+      "german": "gehören",
+      "genre": "",
+      "english": "to belong to (+ dat.)"
+    },
+    {
+      "id": 82,
+      "german": "nachts",
+      "genre": "",
+      "english": "at night ('bei Nacht' or ...)"
+    },
+    {
+      "id": 83,
+      "german": "Meter",
+      "genre": "masculine",
+      "english": "- the meter"
+    },
+    {
+      "id": 84,
+      "german": "wunderschön",
+      "genre": "",
+      "english": "gorgeous, beautiful, wonderful"
+    },
+    {
+      "id": 85,
+      "german": "antworten",
+      "genre": "",
+      "english": "to answer (beantworten, or ...)"
+    },
+    {
+      "id": 86,
+      "german": "Loch",
+      "genre": "neutral",
+      "english": "-\"er the hole"
+    },
+    { "id": 87, "german": "besuchen", "genre": "", "english": "to visit" },
+    {
+      "id": 88,
+      "german": "entlang",
+      "genre": "",
+      "english": "along, alongside"
+    },
+    {
+      "id": 89,
+      "german": "Freude",
+      "genre": "femenine",
+      "english": "-n the joy"
+    },
+    { "id": 90, "german": "geliebt", "genre": "", "english": "beloved" },
+    {
+      "id": 91,
+      "german": "Insel",
+      "genre": "femenine",
+      "english": "-n the island"
+    },
+    {
+      "id": 92,
+      "german": "",
+      "genre": "",
+      "english": "das Fleisch the meat (no plural)"
+    },
+    {
+      "id": 93,
+      "german": "Schmerz",
+      "genre": "masculine",
+      "english": "-en the pain"
+    },
+    {
+      "id": 94,
+      "german": "Zeitung",
+      "genre": "femenine",
+      "english": "-en the newspaper"
+    },
+    {
+      "id": 95,
+      "german": "erkennen",
+      "genre": "",
+      "english": "to recognise, to realise"
+    },
+    {
+      "id": 96,
+      "german": "Gebäude",
+      "genre": "neutral",
+      "english": "- the building"
+    },
+    {
+      "id": 97,
+      "german": "Messer",
+      "genre": "neutral",
+      "english": "- the knife"
+    },
+    {
+      "id": 98,
+      "german": "Kontakt",
+      "genre": "masculine",
+      "english": "-e the contact"
+    },
+    {
+      "id": 99,
+      "german": "schreien",
+      "genre": "",
+      "english": "to scream, to shout"
+    }
+  ]
+}

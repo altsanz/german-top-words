@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { setWords } from './wordsSlice';
 
-export function Words() {
+export const Words = () => {
 
     const words = useSelector(state => state.words.words)
     const dispatch = useDispatch()

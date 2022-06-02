@@ -12,7 +12,6 @@ export const questionSlice = createSlice({
 
     reducers: {
         setNewQuestion: (state, action) => {
-            console.log('state');
             state.germanWord = action.payload.germanWord;
             state.possibleTranslations = action.payload.possibleTranslations;
             state.correctTranslation = action.payload.correctTranslation;
