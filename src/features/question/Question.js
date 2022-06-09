@@ -6,19 +6,25 @@ import Button from "@mui/material/Button";
 import { Box } from "@mui/material";
 import { useQuestion } from "./question.hooks";
 import { wordsStatusSelector } from "../words/words.selectors";
-
-// const MotionTheWord = motion(TheWord);
+import { motion, AnimatePresence } from "framer-motion";
+import { useMatch, useLocation } from "react-router-dom";
+const MotionTheWord = motion(TheWord);
 
 export function Question() {
   const wordsStatus = useSelector(wordsStatusSelector)
-
+  const path = useLocation();
+  const isTranslateRoute = useMatch('/translate-the-word')
   const [buttonColors, setButtonColors] = useState([
     "primary",
     "primary",
     "primary",
   ]);
 
-  const { question, generateQuestion } = useQuestion();
+  useEffect(() => {
+    return () => clearQuestion()
+  }, [])
+
+  const { question, generateQuestion, clearQuestion } = useQuestion();
   useEffect(() => {
     if (wordsStatus === 'success') generateQuestion();
   }, [wordsStatus]);
@@ -57,37 +63,41 @@ export function Question() {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          {/* <AnimatePresence> */}
-          {question && <TheWord
-            // initial={{
-            //   opacity: 0
-            // }}
-            // transition={{
-            //   opacity: 1
-            // }}
-            // final={{
-            //   opacity: 0
-            // }}
-            word={
-              (question.gender ? question.gender + " " : "") +
-              question.germanWord
-            }
-          />}
-          {wordsStatus === 'loading' && 'Loading...'}
-          {wordsStatus === 'failed' && 'Couldn\'t retrieve list of words'}
-          {/* </AnimatePresence> */}
+          <AnimatePresence exitBeforeEnter>
+            {question && <MotionTheWord key={question.germanWord}
+              initial={{ opacity: 0, y: "-10px" }}
+              animate={{
+                opacity: 1,
+                y: 0
+              }}
+              exit={{ opacity: 0 }}
+
+              word={
+                (question.gender ? question.gender + " " : "") +
+                question.germanWord
+              }
+            />}
+            {wordsStatus === 'loading' && 'Loading...'}
+            {wordsStatus === 'failed' && 'Couldn\'t retrieve list of words'}
+          </AnimatePresence>
         </Grid>
+        {/* <AnimatePresence exitBeforeEnter layout> */}
+
         {question.possibleTranslations.map((option, i) => (
-          <Grid item xs={4} key={option + i}>
+          <Grid component={motion.div} layout item xs={4} key={option + i}
+          >
             <Button
               variant="outlined"
               color={buttonColors[i]}
               onClick={() => selectOption(option)}
+
             >
               {option}
             </Button>
           </Grid>
         ))}
+
+        {/* </AnimatePresence> */}
       </Grid>
     </Box>
   );

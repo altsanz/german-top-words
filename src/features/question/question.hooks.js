@@ -3,7 +3,7 @@ import {
     wordsSelector
 } from "../words/words.selectors";
 import { questionSelector } from "./question.selectors";
-import { setNewQuestion } from "./questionSlice";
+import { setNewQuestion, clearQuestion as clearQuestionSlice } from "./questionSlice";
 
 function generateRandomNumber() {
     return Math.round(Math.random() * 100);
@@ -15,6 +15,9 @@ export const useQuestion = () => {
     const question = useSelector(questionSelector)
     const dispatch = useDispatch();
 
+    function clearQuestion() {
+        dispatch(clearQuestionSlice())
+    }
 
     function generateQuestion() {
         if (words && words[1]) {
@@ -38,6 +41,6 @@ export const useQuestion = () => {
     return {
         question,
         generateQuestion,
-        // checkAnswer
+        clearQuestion
     }
 }
